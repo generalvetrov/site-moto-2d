@@ -1,0 +1,93 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    /*justify-content: space-between;*/
+    /*background-image: url('https://pibig.info/uploads/posts/2022-08/1659362680_2-pibig-info-p-temno-fioletovii-fon-odnotonnii-krasivo-3.jpg');*/
+    background-image: url('background.jpg');
+    color: white
+}
+
+main {
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    font-size: 20px;
+    margin: 10vw;
+    margin-left: 15vw;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 0.5);
+    width: 50vw;
+    border-radius: 12px;
+}
+
+.logo {
+  width: 300px;
+}
+
+#header {
+    /*text-align: center;*/
+    padding: 3vh;
+    text-shadow: 1px 1px 2px white;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    height: 50%;
+    font-size: 26px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.navigation:hover {
+    color: white;
+    text-shadow: 0.5px 0.5px 1px white;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 2vw;
+    height: 100%;
+    text-shadow: 0.3px 0.3px 0.6px white;
+    /*border: 2px solid red;*/
+}
+
+.phones {
+    display: flex;
+    flex-direction: column;
+}
+
+.addresses {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-contacts {
+    font-size: 60px;
+    padding-right: 2vw;
+}
+
+/*@media screen and (max-width: 768px) {
+    #header {
+        color: red;
+    }
+}*/
+
